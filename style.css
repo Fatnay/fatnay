@@ -10,7 +10,7 @@ html{
 .container{
   max-width: 500px;
   margin: 0 auto;
-  background: red;
+  background: coral;
   height: 100vh;
   background-image: url("background.JPG");
   background-position: center;
@@ -29,7 +29,7 @@ html{
 .logo>img{
   width: 150px;
   height: 150px;
-  border: 3px solid black;
+  border: 3px solid coral;
   border-radius: 100%;
 }
 
@@ -37,7 +37,9 @@ html{
   font-size: 1.8em;
   font-weight: 900;
   letter-spacing: 2px;
-  color: white;
+  color: coral;
+  border: 3px solid coral;
+  background: seashell;
   text-transform: capitalize;
   text-align: center;
 }
@@ -46,8 +48,8 @@ html{
   font-size: 1.8em;
   font-weight: 900;
   letter-spacing: 2px;
-  color: orange;
-  border: 3px solid orange;
+  color: coral;
+  border: 3px solid coral;
   text-transform: capitalize;
   text-align: center;
   background: seashell;
@@ -62,10 +64,10 @@ html{
 
 .link>a{
   text-decoration: none;
-  color: orange;
+  color: coral;
   font-size: 24px;
   text-align: center;
-  border: 3px solid orange;
+  border: 3px solid coral;
   background: seashell;
   border-radius: 7px;
   margin: 5px 10px;
@@ -79,10 +81,18 @@ html{
 }
 
 .footer{
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
-.footer>i{
-  color: white;
-  font-size: 20px;
+.footer>f{
+  font-size: 1.0em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: red;
+  border: 3px solid red;
+  background: seashell;
 }
